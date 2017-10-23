@@ -1,0 +1,95 @@
+body {
+	background-color: #686b70;
+	color: white;
+	font-family: 'Londrina Solid', cursive;
+}
+a {
+	color: #4D9A4A;
+}
+header {
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+}
+
+.playerList {
+	padding-top: 4vh;
+}
+.map{
+	width: 100%;
+	height: 60vh;
+}
+.banner {
+
+}
+.section-tab {
+	height: 70vh;
+}
+.zoomable {
+    cursor: zoom-in;
+}
+
+
+/*Tabs menu*/
+.tabs-menu section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #4D9A4A;
+}
+.tabs-menu input {
+  display: none;
+}
+.tabs-menu label {
+  display: inline-block;
+  margin: 6vh 0 -1px;
+  padding: 15px 25px;
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+  color: #4D9A4A;
+  border: 1px solid transparent;
+}
+.tabs-menu label:hover {
+  color: #4D9A4A;
+  cursor: pointer;
+}
+.tabs-menu input:checked + label {
+  color: #4D9A4A;
+  border-top: 3px solid #4D9A4A;
+  border-bottom: 1px solid #fff;
+}
+.tabs-menu #tab-1:checked ~ #content-1,
+.tabs-menu #tab-2:checked ~ #content-2,
+.tabs-menu #tab-3:checked ~ #content-3,
+.tabs-menu #tab-4:checked ~ #content-4 {
+  display: block;
+}
+@media screen and (max-width: 650px) {
+  .tabs-menu label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .tabs-menu label {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .tabs-menu label {
+    border: 1px solid #bbc8ce;
+    width: 33%;
+  }
+}
+
+
+
+
+
+footer {
+	width: 100vw;
+	margin-top: 6vh;
+}
+.footer-img {
+		position: absolute;
+		left: 0px;
+}
